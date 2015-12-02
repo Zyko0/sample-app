@@ -11,7 +11,7 @@ import (
 
 func worker() {
 	for {
-		fmt.Println("Dlrow olleH")
+		fmt.Println("Dlrow olleH!")
 		time.Sleep(100000000)
 	}
 }
