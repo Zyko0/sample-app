@@ -1,9 +1,5 @@
 {
-  "name": "Sample App",
-  "description": "Sample web application written in Go",
-  "logo": "https://scalingo.com/logo.svg",
   "repository": "https://github.com/Scalingo/sample-go-martini",
-  "website": "https://scalingo.com",
   "scripts": {
     "postdeploy": "ls"
   },
@@ -13,13 +9,10 @@
       "value": "1"
     },
     "VAR_TEST_2": {
-      "description": "should be an URL",
       "generator": "url"
     },
     "VAR_SECRET_1": {
-      "description": "generated variable 1",
       "generator": "secret"
     }
-  },
-  "addons": ["dummy-addon"]
+  }
 }
